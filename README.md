@@ -81,7 +81,4 @@ Absolutely — after the AI creates your site, you can edit text, change styles,
 
 ---
 
-## 📚 Resources & Support
-
-For help, tutorials, and support:
 
