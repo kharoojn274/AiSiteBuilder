@@ -1,17 +1,10 @@
-// lib/prisma.ts
+import "dotenv/config";
+import { PrismaPg } from "@prisma/adapter-pg";
 import { PrismaClient } from "@prisma/client";
 
-declare global {
-  // allow prisma to be a global var in dev
-  // so hot reload doesn't create multiple instances
-  // eslint-disable-next-line no-var
-  var prisma: PrismaClient | undefined;
-}
+const connectionString = process.env.DATABASE_URL!;
 
-const prisma = globalThis.prisma || new PrismaClient();
-
-if (process.env.NODE_ENV !== "production") {
-  globalThis.prisma = prisma;
-}
+const adapter = new PrismaPg({ connectionString });
+const prisma = new PrismaClient({ adapter });
 
 export default prisma;
