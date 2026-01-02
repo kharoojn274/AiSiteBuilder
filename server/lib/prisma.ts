@@ -1,10 +1,11 @@
-import "dotenv/config";
-import { PrismaPg } from "@prisma/adapter-pg";
+// lib/prisma.ts
 import { PrismaClient } from "@prisma/client";
 
-const connectionString = process.env.DATABASE_URL!;
+// Ensure singleton pattern to avoid multiple instances in dev (Next.js/Hot reload)
+const prisma = globalThis.prisma || new PrismaClient();
 
-const adapter = new PrismaPg({ connectionString });
-const prisma = new PrismaClient({ adapter });
+if (process.env.NODE_ENV !== "production") {
+  globalThis.prisma = prisma;
+}
 
 export default prisma;
