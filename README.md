@@ -1,7 +1,7 @@
 # AiSiteBuilder
 
 **Turn your ideas into a website in seconds — powered by AI!**  
-AiSiteBuilder is an AI‑driven website creation platform that lets you generate, customize, and publish beautiful, responsive websites in minutes — no coding or design experience required. :contentReference[oaicite:0]{index=0}
+AiSiteBuilder is an AI‑driven website creation platform that lets you generate, customize, and publish beautiful, responsive websites in minutes — no coding or design experience required. 
 
 ---
 
@@ -12,23 +12,22 @@ AiSiteBuilder is an AI‑driven website creation platform that lets you generate
 Whether you need a landing page, business site, portfolio, or blog, AiSiteBuilder helps you:
 - **Generate professional websites instantly**
 - **Customize layouts and content with ease**
-- **Publish your site faster than traditional web design** :contentReference[oaicite:1]{index=1}
-
+- **Publish your site faster than traditional web design**
 ---
 
 ## 🧠 Key Features
 
 ### 🖌️ **AI‑Powered Website Generation**
-Simply describe your website idea — AiSiteBuilder uses generative AI to construct a complete site structure, text, and visual layout instantly. :contentReference[oaicite:2]{index=2}
+Simply describe your website idea — AiSiteBuilder uses generative AI to construct a complete site structure, text, and visual layout instantly. 
 
 ### ⚡ **Fast & Easy Customization**
-Tailor your design using built‑in tools or further refine the AI’s output to match your brand and vision. :contentReference[oaicite:3]{index=3}
+Tailor your design using built‑in tools or further refine the AI’s output to match your brand and vision. 
 
 ### 📱 **Responsive & Modern Designs**
-Generated sites adapt seamlessly across mobile, tablet, and desktop screens for a professional user experience. :contentReference[oaicite:4]{index=4}
+Generated sites adapt seamlessly across mobile, tablet, and desktop screens for a professional user experience. 
 
 ### 🌐 **Publish in Minutes**
-Go live with your AI‑generated website quickly — launch your online presence without deployment headaches. :contentReference[oaicite:5]{index=5}
+Go live with your AI‑generated website quickly — launch your online presence without deployment headaches. 
 
 ---
 
